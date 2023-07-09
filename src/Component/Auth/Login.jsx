@@ -53,6 +53,7 @@ const Login = () => {
             secure: true,
             expires: 0.25,
           });
+          console.log(sharedState);
           setLogusername("");
           setLogpassword("");
           navigate("/homepage");
